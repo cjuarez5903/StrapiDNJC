@@ -4,6 +4,10 @@
   "version": "0.1.0",
   "description": "A Strapi application",
   "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
   },
   "devDependencies": {},
   "dependencies": {
@@ -19,8 +23,8 @@
     "uuid": "a71fbc54-0356-4e59-bc01-3fdeeb802419"
   },
   "engines": {
-    "node": "12.21.0",
-    "npm": "^6.0.0"
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
   },
   "license": "MIT"
 }

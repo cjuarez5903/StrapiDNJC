@@ -7,7 +7,11 @@ module.exports = ({ env }) => ({
       database: env('DATABASE_NAME', 'partsologydb'),
       user: env('DATABASE_USERNAME', 'admin'),
       password: env('DATABASE_PASSWORD', 'DNJ2021Partsology'),
-      ssl: env.bool('DATABASE_SSL', false),
+      //ssl: env.bool('DATABASE_SSL', false),
     },
+    ssl: {
+      rejectUnauthorized: false
+    }
   },
 });
+ 
